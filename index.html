@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./images/img2.jpeg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/97c300a5fa.js" crossorigin="anonymous"></script>
+    <title>Welcome to Vinit Patidar's Portfolio Website</title>
+</head>
+
+<body style="font-family: 'Ubuntu',sans-serif; background-color: black">
+    <nav class="navbar navbar-expand-lg navbar-dark" style=" background-color:#2a2727;">
+        <div class="container-fluid">
+            <img src="./images/logo.jpg" alt="" style="width:40px; border-radius:20px; margin-right: 20px;">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#works">Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <!-- <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit" style="color: white;">Search</button>
+                </form> -->
+            </div>
+        </div>
+    </nav>
+
+    <section style="width:100%; display: flex; flex-direction: column; justify-content: center; align-items: center; margin:60px 0px;" id="profile">
+        <!-- <h2 class="text-center" style="margin: 25px 0px; color: white;">Profile</h2> -->
+        <div class="card mb-3 " style="width:70%; background-color:#2a2727; padding: 50px 0px;   box-shadow: 5px 3px 5px black;">
+            <div class="row g-0 d-flex flex-column my-3 justify-content-center align-items-center">
+                <div class="col d-flex-sm-3">
+                    <img src="./images/img3.jpg" style="width: 170px; margin-left: 50px;"
+                        class="rounded mx-auto d-block" alt="...">
+                </div>
+                <div class="col d-flex-md-8" style="color: white;">
+                    <div class="card-body">
+                        <h2 class="text-center">Hi, I'm <span style="color: #FC2947;">Vinit</span></h2>
+                        <p class="card-text text-center">I am a second year undergraduate
+                            student of the department of Agricultural and Food Engineering. I am a Programming,Web
+                            Development and Machine Learning enthusiast. I have a huge interest in appliction of AI/ML
+                            into Agriculture so currently I am exploring the field of AI/ML and its uses in the field of
+                            Agriculture.
+                        </p>
+                        <div class="d-flex justify-content-center">
+                            <p class="text-center d-flex justify-content-center mx-2">
+                                <a class="btn btn-primary" style="background-color: #FC2947;" data-bs-toggle="collapse" href="#Schools" role="button"
+                                    aria-expanded="false" aria-controls="collapseExample" style="font-size: smaller;">
+                                    Education
+                                </a>
+                            </p>
+                            <p class="text-center d-flex justify-content-center">
+                                <a href="./cv/Resume.docx" class="btn btn-primary" style="background-color: #FC2947;" style="font-size: smaller;" download>
+                                    Download cv
+                                </a>
+                            </p>
+                        </div>
+                        <div class="collapse" id="Schools">
+                            <div class="d-flex justify-content-evenly flex-wrap">
+                                <div class="card"
+                                    style="width: 300px; margin:10px 0px; background-color:#FC2947; box-shadow: 5px 3px 5px black;">
+                                    <div class="row g-0 d-flex flex-column">
+                                        <div class="col d-flex-md-4">
+                                            <img src="./images/primary_School.jpg" class="img-fluid rounded-start"
+                                                alt="...">
+                                        </div>
+                                        <div class="col d-flex-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Gayatri Vidhya Mandir Oon Bujurg,Khargone Madhya
+                                                    Pradesh</h5>
+                                                <!-- <p class="card-text">This school is my Base forming school as I studied -->
+                                                    <!-- here for 11yrs</p> -->
+                                                <p class="card-text">Studied: Nursery to 8th Standard</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card"
+                                    style="width: 300px; margin:10px 0px; background-color:#FC2947; box-shadow: 5px 3px 5px black;">
+                                    <div class="row g-0 d-flex flex-column">
+                                        <div class="col d-flex-md-4">
+                                            <img src="./images/High_school.jpg" class="img-fluid rounded-start"
+                                                alt="...">
+                                        </div>
+                                        <div class="col d-flex-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Govenment Higher Secondary School Oon
+                                                    Bujurg,Khargone Madhya Pradesh</h5>
+                                                <!-- <p class="card-text">This school brings my Golden Time as I did Top in
+                                                    the Whole Khargone District in Class:10th Board Examination.</p> -->
+                                                <p class="card-text">Studied: 9th and 10th Standard</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card"
+                                    style="width: 300px; margin: 10px 0px; background-color:#FC2947; box-shadow: 5px 3px 5px black">
+                                    <div class="row g-0 d-flex flex-column">
+                                        <div class="col d-flex-md-4">
+                                            <img src="./images/High_School.jpg" class="img-fluid rounded-start"
+                                                alt="...">
+                                        </div>
+                                        <div class="col d-flex-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Govenment Subhash Higher Secondary School Shivaji
+                                                    Nagar,Bhopal Madhya Pradesh</h5>
+                                                <!-- <p class="card-text">This is the school where first time I heard about
+                                                    IIT-JEE so I can it is my future building school.</p> -->
+                                                <p class="card-text">studied: 11th and 12th Standard</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card"
+                                    style="width: 300px; margin:10px 0px; background-color:#FC2947; box-shadow: 5px 3px 5px black;">
+                                    <div class="row g-0 d-flex flex-column">
+                                        <div class="col d-flex-md-4">
+                                            <img src="./images/iitkgp.png" height="100px"
+                                                class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col d-flex- md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Indian Institute of Technology Kharagpur</h5>
+                                                <p class="card-text">Department: Agricultural and Food Engineering</p>
+                                                <p class="card-text">Course: Dual Degree</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section style="width:100%; margin:60px 0px; color: white;" id="skills">
+        <h2 class="text-center" style="margin: 15px 0px; color: white;">Skills</h2>
+        <div class="card" style="width:70%; margin: auto; background-color: #2a2727; box-shadow: 5px 3px 5px black;  padding: 60px 0px;">
+
+            <div class="mx-auto" style="width: 60%;">
+                <div>
+                    <h6>HTML</h6>
+                    <div class="progress my-3" style="width:100%; height: 10px;">
+                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">75%</div>
+                      </div>
+                </div>
+                 
+                <div>
+                    <h6>CSS</h6>
+                    <div class="progress my-3" style="width:100%; height: 10px;">
+                        <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
+                      </div>
+                </div>
+                <div>
+                    <h6>JavaScript</h6>
+                    <div class="progress my-3" style="width:100%; height: 10px;">
+                        <div class="progress-bar" role="progressbar" style="width: 73%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">73%</div>
+                      </div>
+                </div>
+                <div>
+                    <h6>C</h6>
+                    <div class="progress my-3" style="width:100%; height: 10px;">
+                        <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+                      </div>
+                </div>
+                <div>
+                    <h6>C++</h6>
+                    <div class="progress my-3" style="width:100%; height: 10px;">
+                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">75%</div>
+                      </div>
+                </div>
+                <div>
+                    <h6>Python</h6>
+                    <div class="progress my-3" style="width:100%; height: 10px;">
+                        <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">65%</div>
+                      </div>
+                </div>
+                <div>
+                    <h6>React js</h6>
+                    <div class="progress my-3" style="width:100%; height: 10px;">
+                        <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
+                      </div>
+                </div>
+                <div>
+                    <h6>Tailwind CSS</h6>
+                    <div class="progress my-3" style="width:100%; height: 10px;">
+                        <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="d-flex justify-content-center align-items-center flex-column" style="width:100%" id="works">
+        <h2 class="text-center text-light">My Works</h2>
+        <div class="d-flex justify-content-center align-items-center flex-wrap my-3" style="width: 70%; background-color:#2a2727; border-radius: 10px;box-shadow: 5px 3px 5px black;">
+        <div class="card mx-2 my-2" style="width: 18rem;background-color: #454242; color: white;box-shadow: 0px 0px 10px 4px black;">
+            <img class="card-img-top" src="./images/ChilBro.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">ChillBro</h5>
+              <p class="card-text">Music Player created using pure HTML,CSS and JavaScript.Used Audio library of JavaScript.</p>
+              <a href="https://vinit-patidar-03.github.io/ChillBro_listen_your_favourite_music_now.github.io/" target="_blank" class="btn btn-primary" style="background-color: #FC2947;">Watch live</a>
+            </div>
+          </div>
+          <div class="card mx-2 my-2" style="width: 18rem; background-color: #454242; color: white;box-shadow: 0px 0px 10px 4px black;">
+            <img class="card-img-top" src="./images/Alarm-Clock.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Alarm-Clock</h5>
+              <p class="card-text">Alarm clock created using pure HTML,CSS and JavaScript. Used Date object of JavaScript.</p>
+              <a href="https://vinit-patidar-03.github.io/Analog_and_alarm_clock.github.io/" target="_blank" class="btn btn-primary" style="background-color: #FC2947;">Watch live</a>
+            </div>
+          </div>
+          <div class="card mx-2 my-2" style="width: 18rem; background-color: #454242; color: white; box-shadow: 0px 0px 10px 4px black;">
+            <img class="card-img-top" src="./images/Mausam.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Mausam</h5>
+              <p class="card-text">Weather app created using pure HTML,CSS and JavaScript. Used fetch method fetch Weather data from server.</p>
+              <a href="https://vinit-patidar-03.github.io/Know_Weather_of_your_city.github.io/" target="_blank" class="btn btn-primary" style="background-color: #FC2947;">Watch live</a>
+            </div>
+          </div>
+          <div class="card mx-2 my-2" style="width: 18rem; background-color: #454242; color: white;box-shadow: 0px 0px 10px 4px black;">
+            <img class="card-img-top" src="./images/SocialMedia.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">SocialMedia</h5>
+              <p class="card-text">All SocialMedia apps at one place created using pure HTML,CSS and JavaScript. Used pseudo selectors of CSS.</p>
+              <a href="https://vinit-patidar-03.github.io/Welcome_to_Popular_Websites.github.io/" target="_blank" class="btn btn-primary" style="background-color: #FC2947;">Watch live</a>
+            </div>
+          </div>
+          <div class="card mx-2 my-2" style="width: 18rem; background-color: #454242; color: white;box-shadow: 0px 0px 10px 4px black;">
+            <img class="card-img-top" src="./images/Textimo.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Textimo</h5>
+              <p class="card-text">Text Manipulation app created using React.js and bootstrap. Added the functionality of dark Mode using useState hook.</p>
+              <a href="https://vinit-patidar-03.github.io/Textimo/" target="_blank" class="btn btn-primary" style="background-color: #FC2947;">Watch live</a>
+            </div>
+          </div>
+        </div>
+    </section>
+    <footer id="contact">
+        <h2 class="text-center text-light my-3">Contact</h2>
+        <div class="card text-center" style="border-color:black; background-color: black;">
+            <div class="card-body d-flex flex-column align-items-center" style="background-color: #2a2727; border-top-left-radius: 10px;border-top-right-radius: 10px;">
+                <div class="d-flex flex-column justify-content-sm-center text-light">
+                    <label for=""><i class="fa-solid fa-envelope mx-2" style="color: #FC2947;"></i>vinitpatidar780@gmail.com</label>
+                    <label for=""><i class="fa-solid fa-phone mx-2" style="color: #FC2947;"></i>+919302619540</label>
+                </div>
+                <div>
+                    <a href="https://www.youtube.com/channel/UCq-X1tauK-tu5f461j8yimw"><img src="./images/youtube.png"
+                        width="20px" alt="youtube"></a>
+                <a href="https://www.linkedin.com/in/vinit-patidar-ab4041227/"><img src="./images/linkedin.png"
+                        width="20px" alt="linkedin"></a>
+                <a href="https://www.facebook.com/vinit.patidar.9887"><img src="./images/facebook.png" width="20px"
+                        alt="facebook"></a>
+                <a href="https://www.instagram.com/vinit_patidar_03/"><img src="./images/Instagram.png" width="20px"
+                        alt="linkedin"></a>
+                <a href="https://twitter.com/vinit_03"><img src="./images/twitter.png" width="20px" alt=""></a>
+                </div>
+            </div>
+            <div class="card-footer" style="color:white; background-color: rgb(31, 30, 30);">
+                Copyright &copy; 2023 Made with <i class="fa-solid fa-heart" style="color: #FC2947;"></i> by <span style="color: #DF2E38;">Vinit Patidar</span>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
